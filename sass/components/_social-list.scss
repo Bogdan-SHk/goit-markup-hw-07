@@ -1,0 +1,24 @@
+.social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.social-list__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    fill: #afb1b8;
+
+    transition: fill $transition-duration $transition-timing-function, background-color $transition-duration $transition-timing-function;
+
+    &:hover,
+    &:focus {
+        fill: $primary-white-color;
+        background-color: $accent-color;
+    }
+}
+

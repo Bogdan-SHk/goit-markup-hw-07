@@ -172,10 +172,10 @@ textarea {
 
 /* Banner */
 
-.banner.section {
+/* .banner.section {
     padding-left: 200px;
     padding-right: 200px;
-}
+} */
 .banner {
     max-width: 1600px;
     height: 600px;
@@ -202,9 +202,13 @@ textarea {
     text-transform: uppercase;
 }
 .banner-button {
-    display: inline-block;
-    padding: 10px 32px;
-    min-width: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

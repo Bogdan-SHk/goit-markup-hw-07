@@ -1,0 +1,29 @@
+.main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    color: $primary-white-color;
+    background-color: $accent-color;
+    cursor: pointer;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    transition: color $transition-duration $transition-timing-function, background-color $transition-duration $transition-timing-function;
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+    }
+}

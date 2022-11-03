@@ -1,0 +1,36 @@
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+
+    &__icon-header {
+        fill: currentColor;
+        margin-right: 10px;
+    }
+}
+
+.contacts-list__item + .contacts-list__item {
+    margin-left: 50px;
+}
+
+.contacts-list__mail,
+.contacts-list__tel {
+    display: flex;
+    align-items: center;
+
+    color: $primary-text-color;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    transition: color $transition-duration $transition-timing-function;
+
+    &__mail:hover,
+    &__tel:hover,
+    &__mail:focus,
+    &__tel:focus {
+        color: $accent-color;
+    }
+}
+
