@@ -1,8 +1,12 @@
 .page-header {
     border-bottom: 1px solid #ECECEC;
 
-    .header-container {
+    &__container {
         display: flex;
         align-items: center;
+    }
+
+    &__navigation {
+        display: flex;
     }
 }

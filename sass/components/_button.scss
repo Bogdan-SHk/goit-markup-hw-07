@@ -1,4 +1,4 @@
-.main-button {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,10 +20,15 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
 
-    transition: color $transition-duration $transition-timing-function, background-color $transition-duration $transition-timing-function;
+    transition: background-color $transition-duration $transition-timing-function;
 
     &:hover,
     &:focus {
         background-color: #188CE8;
     }
+}
+
+.button--footer {
+    width: 200px;
+    gap: 10px;
 }

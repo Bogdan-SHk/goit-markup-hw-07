@@ -1,9 +1,4 @@
 .logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-
-    color: $primary-black-color;
-
     font-family: $secondary-font-family;
     font-weight: 700;
     font-size: 26px;
@@ -13,4 +8,18 @@
     &__accent {
         color: $accent-color;
     }
+}
+
+.logo--header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+        
+    color: $primary-black-color;
+}
+
+.logo--footer {
+    display: inline-block;
+    margin-bottom: 20px;
+        
+    color: $primary-white-color;
 }

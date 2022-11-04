@@ -26,10 +26,8 @@
 
     transition: color $transition-duration $transition-timing-function;
 
-    &__mail:hover,
-    &__tel:hover,
-    &__mail:focus,
-    &__tel:focus {
+    &:hover,
+    &:focus {
         color: $accent-color;
     }
 }
