@@ -8,18 +8,18 @@
     &__accent {
         color: $accent-color;
     }
-}
 
-.logo--header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-        
-    color: $primary-black-color;
-}
+    &--header {
+        padding-top: 24px;
+        padding-bottom: 25px;
 
-.logo--footer {
-    display: inline-block;
-    margin-bottom: 20px;
-        
-    color: $primary-white-color;
+        color: $primary-black-color;
+    }
+
+    &--footer {
+        display: inline-block;
+        margin-bottom: 20px;
+
+        color: $primary-white-color;
+    }
 }
